@@ -1,0 +1,60 @@
+body {
+    color: #000000;
+}
+
+.navbar {
+    box-shadow: 0 4px 6px rgba(255, 0, 0, 0.1);
+}
+
+.cart {
+    position: fixed;
+    top: 55px;
+    right: 20px;
+    max-height: 80vh;
+    color: #ffffff;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cart-item input {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.total {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.btn-primary {
+    background-color: #000000;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cart
+{
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 8px;
+    overflow-y: auto;
+}
+
+
+.btn-primary:hover {
+    background-color: #575757;
+}
